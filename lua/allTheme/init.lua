@@ -48,6 +48,15 @@ function theme.set_highlights()
   hl(0, "GitSignsChange", { fg = c.yellow })
   hl(0, "GitSignsDelete", { fg = c.red })
 
+  -- Neo-tree
+  hl(0, "NeoTreeNormal", { fg = c.fg, bg = c.bg })
+  hl(0, "NeoTreeNormalNC", { fg = c.fg, bg = c.bg })
+  hl(0, "NeoTreeDirectoryName", { fg = c.blue, bold = true })
+  hl(0, "NeoTreeDirectoryIcon", { fg = c.yellow })
+  hl(0, "NeoTreeGitModified", { fg = c.yellow })
+  hl(0, "NeoTreeGitAdded", { fg = c.green })
+  hl(0, "NeoTreeGitDeleted", { fg = c.red })
+
   -- -- Terminal
   -- vim.g.terminal_color_0 = "#1f1f1f"
   -- vim.g.terminal_color_1 = "#c24038"
